@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Undangan pernikahan Saya & Chisa — 20 Juni 2027">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Poppins:wght@300;400;500;600&display=swap">
+    <title>Undangan Pernikahan Saya & Chisa</title>
+</head>
+<body class="locked">
+    <!-- Cover -->
+    <div class="cover" id="cover">
+        <div class="cover-inner">
+            <p>Wedding Invitation</p>
+            <h1>Saya</h1>
+            <span>&</span>
+            <h1>Chisa</h1>
+            <div class="cover-rule"><span>✿</span></div>
+            <p class="cover-date">20 . 06 . 2027</p>
+            <p class="cover-note">Save the Date</p>
+            <button class="cover-btn" id="openBtn">
+            <!-- Logo -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                <path d="M3 8l9 6 9-6"/><rect x="3" y="5" width="18" height="14" rx="2"/>
+            </svg>
+            Buka Undangan
+            </button>
+        </div>
+    </div>
+    
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <img src="assets/sakura.png" alt="Sakura" class="sakura">
+            <span class="hero-badge">Undangan Pernikahan</span>
+            <h1 class="hero-title">Saya <span class="amp">&amp;</span> Kuchiba Chisa</h1>
+            <p class="hero-sub">
+            Di antara mekarnya bunga musim semi,<br>
+            dua hati menemukan rumahnya.
+            </p>
+            <div class="hero-date">Minggu · 20 Juni 2027</div>
+            <div class="hero-hint">
+                <p>Scroll Kebawah</p>
+                <!-- SVG buat tanda panah ke bawah -->
+                <svg class="scroll-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 5v14" />
+                    <path d="M19 12l-7 7-7-7" />
+                </svg>
+            </div>
+        </section>
+
+        <!-- Quote/Kata-kata -->
+        <section class="section">
+            <div class="quote-wrap">
+                <!-- First Quote -->
+                <div class="quote-card reveal">
+                    <p class="quote-jp">
+                        どの世界線にいても、どの時間であっても、<br>
+                        <span class="highlight">俺はいつもお前を想っている。</span><br>
+                        <span class="quote-romaji">
+                        (Dono sekaisen ni itemo, dono jikan de attemo, ore wa itsumo omae o omotte iru)
+                        </span>
+                    </p>
+                    <p class="quote-id">
+                        Di garis dunia manapun kita berada, di waktu kapanpun itu,<br>
+                        <span class="highlight">aku akan selalu memikirkanmu.</span>
+                    </p>
+                    <cite class="quote-src">— Rintarou Okabe, "Steins;Gate"</cite>
+                </div>
+                
+                <!-- Second Quote -->
+                <div class="quote-card reveal">
+                    <p class="quote-jp">
+                        私はここにいるよ。<br>
+                        <span class="highlight">どの世界線にいても、あなたと一緒に。</span><br>
+                        <span class="quote-romaji">
+                        (Watashi wa koko ni iru yo. Dono sekaisen ni itemo, anata to issho ni)
+                        </span>
+                    </p>
+                    <p class="quote-id">
+                        Aku akan selalu ada di sini.<br>
+                        <span class="highlight">Di garis dunia mana pun, bersamamu.</span>
+                    </p>
+                    <cite class="quote-src">— Kurisu Makise, "Steins;Gate"</cite>
+                </div>
+            </div>
+        </section>
+
+        <!-- Profil Mempelai -->
+        <section class="section">
+            <div class="sec-head reveal">
+                <h2 class="sec-title">Mempelai</h2>
+                <p class="sec-sub">The Bride &amp; Groom</p>
+            </div>
+
+            <div class="couple-card reveal">
+                <div class="couple-avatar">
+                    <img src="https://static.wikitide.net/stellasorawiki/5/58/Sticker_CN_Pack_Tyrie_25.png" alt="Sticker Tyrie">
+                </div>
+                <h3 class="couple-name">Saya</h3>
+                <p class="couple-role">The Groom</p>
+                <p class="couple-parents">Putra dari<br><b>Ayah saya </b> & <b> Ibu saya</b></p>
+            </div>
+
+            <div class="and-divider reveal"><span>&</span></div>
+
+            <div class="couple-card reveal">
+                <div class="couple-avatar">
+                    <img src="https://static.wikitide.net/stellasorawiki/8/80/Sticker_CN_Pack_Tyrie_17.png" alt="Sticker Tyrie">
+                </div>
+                <h3 class="couple-name">Kuchiba Chisa</h3>
+                <p class="couple-role">The Bride</p>
+                <p class="couple-parents">Putri dari<br><b>Tuan Kuchiba </b> & <b> Nyonya Kuchiba</b></p>
+            </div>
+        </section>
+
+        <!-- Tanggal, Tempat, dan Countdown -->
+        <section class="section">
+            <!-- Judul bagian -->
+            <div class="sec-head reveal">
+                <h2 class="sec-title">Pelaksanaan Acara</h2>
+                <p class="sec-sub">Kami menantikan kehadiran Anda</p>
+            </div>
+
+            <!-- Tanggal dan Tempat -->
+            <div class="event-grid reveal">
+                <div class="event-date-locate">
+                    <!-- Tanggal -->
+                    <div class="tanggal">
+                        <div class="event-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                            </svg>
+                        </div>
+                        <h4 class="event-name">Resepsi dan Perayaan</h4>
+                        <p class="event-meta">Minggu · 20 Juni 2027</p>
+                        <p class="event-text">Pukul 08.00 — 10.00 WIB</p>
+                    </div>
+
+                    <!-- Pemisah kiri kanan -->
+                    <div class="event-divider"></div>
+
+                    <!-- Tempat -->
+                    <div class="tempat">
+                        <div class="event-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-calendar-event" viewBox="0 0 16 16">
+                                <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"/>
+                                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                            </svg>
+                        </div>
+                        <h4 class="event-name">Aryo Blitar Art Hall</h4>
+                        <p class="event-meta">Gedung Kesenian Aryo Blitar</p>
+                        <p class="event-text">Jl. Kenari, Plosokerep,<br> Kec. Sananwetan, Kota Blitar</p>
+                    </div>
+                </div>
+                <!-- Button Lokasi -->
+                <div class="event-actions">
+                    <a class="btn-map" href="https://maps.app.goo.gl/1gtcSFcdDGKGWn5K6" target="_blank">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>
+                        Lihat Lokasi
+                    </a>
+                </div>
+                <!-- Countdown -->
+                <div class="countdown">
+                    <p class="sec-sub">Countdown</p>
+                    <div class="count-grid">
+                        <div class="count-cell"><span class="count-num" id="cd-d">00</span><span class="count-lbl">Hari</span></div>
+                        <div class="count-cell"><span class="count-num" id="cd-h">00</span><span class="count-lbl">Jam</span></div>
+                        <div class="count-cell"><span class="count-num" id="cd-m">00</span><span class="count-lbl">Menit</span></div>
+                        <div class="count-cell"><span class="count-num" id="cd-s">00</span><span class="count-lbl">Detik</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- RSVP Form -->
+        <section class="section">
+            <!-- Judul Bagan -->
+            <div class="sec-head reveal">
+                <h2 class="sec-title">Konfirmasi Kehadiran</h2>
+                <p class="sec-sub">RSVP & Ucapan</p>
+            </div>
+            <!-- Div Form -->
+            <div class="rsvp-card reveal">
+                <!-- Form RSVP -->
+                <form class="rsvp-form" id="rsvpForm" novalidate>
+                    <div class="field">
+                        <label for="guest-email">Email</label>
+                        <input type="email" id="guest-email" required placeholder="Tuliskan Email Anda">
+                    </div>
+                    <div class="field">
+                        <label for="guest-name">Nama Lengkap</label>
+                        <input type="text" id="guest-name" required placeholder="Tuliskan Nama Lengkap Anda">
+                    </div>
+                    <div class="field">
+                        <label for="fattend">Kehadiran</label>
+                        <select id="fattend" required>
+                            <option value="">— Pilih —</option>
+                            <option value="hadir">Hadir</option>
+                            <option value="ragu">Masih belum pasti</option>
+                            <option value="tidak">Tidak bisa hadir</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="msg">Ucapan & Doa</label>
+                        <textarea id="msg" placeholder="Tuliskan ucapanmu untuk kami" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit" id="btn-submit">Kirim</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p class="footer-names">Saya <span class="amp">&</span> Chisa</p>
+            <q class="footer-quote">
+                Dan aku akan selalu menyukaimu, apa adanya.
+            </q>
+            <p class="footer-credit">20 Juni 2027</p>
+        </footer>
+    </main>
+
+    <!-- Kelopak bunga -->
+    <div id="petals" aria-hidden="true"></div>
+    <!-- Toast Notification -->
+    <div class="toast-msg" id="toast-msg">Terima kasih! RSVP Anda telah terkirim.</div>
+    <!-- Tombol Musik -->
+    <button class="music-btn hide" id="musicBtn" aria-label="Putar musik">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-music-note-beamed" viewBox="0 0 16 16">
+            <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13s1.12-2 2.5-2 2.5.896 2.5 2m9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2"/>
+            <path fill-rule="evenodd" d="M14 11V2h1v9zM6 3v10H5V3z"/>
+            <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4z"/>
+        </svg>
+    </button>
+    <!-- Audio -->
+    <audio id="music" loop preload="auto">
+        <source src="assets/music/Flower_Raft.mp3" type="audio/mpeg">
+        Browser kamu tidak mendukung audio.
+    </audio>
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
